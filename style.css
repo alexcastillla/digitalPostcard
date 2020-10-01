@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+img{
+    margin: 8px;
+    float: right;
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+.postcard{
+        background-color: white;
+        width: 500px;
+        height: 340px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -250px;
+        margin-top: -170px;
+    }
+
+.column{
+        overflow: hidden;
+    }
+
+.left{
+        float: left;
+        width: 50%;
+    }
+
+.right{
+        text-align: center;
+        float: right;
+        width: 50%;
+    }
+
+.button{
+        padding: 10px;
+        text-align: center;
+    }
+
+.button input{
+            background-color: rgb(201, 201, 201);
+            font-size: 20px;
+        }
+
+.right input{
+            margin: 5px;
+            font-size: 18px;
+            border: none;
+            border-bottom: 2px solid;
+            border-bottom-color: rgb(201, 201, 201);
+        }
+
+
+
