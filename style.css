@@ -27,28 +27,28 @@ h1{
     position: absolute;
     margin: 0;
 }
-.column{
+.postcard-body{
     overflow: hidden;
 }
-.left{
+.postcard-body-left{
     float: left;
     width: 50%;
 }
-.right{
+.postcard-body-right{
     margin-top: 0.5rem;
     text-align: center;
     float: right;
     width: 50%;
 }
-.button{
+.postcard-footer{
     padding: 0.625rem;
     text-align: center;
 }
-.button input{
+.postcard-footer input{
     background-color: rgb(201, 201, 201);
     font-size: 1.25rem;
 }
-.right input{
+.postcard-body-right input{
     margin: 0.31rem;
     font-size: 1.125rem;
     border: none;
